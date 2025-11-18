@@ -45,4 +45,22 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
+}
+
+
+.header {
+  padding: 5px 15px;
+}
+.header,
+.links,
+.right-section,
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.right-section {
+  margin-left: auto;
 }
